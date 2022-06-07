@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif; }
+
+.gameBox {
+  color: #ffffff;
+  background: #17171a;
+  width: 45rem;
+  height: 45rem;
+  top: 50%;
+  left: 50%;
+  min-width: 30rem;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%, -50%); }
+
+.gameBox__title {
+  color: #6a0dad;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  text-shadow: #ffffff 1px 2px, 0 3px #6c2d7c; }
+
+.gameBox__score {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  font-weight: 700; }
+
+.gameBox__result {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  outline: none;
+  width: 43rem;
+  border: none;
+  padding-top: 0.5rem;
+  height: 5rem;
+  background: white;
+  overflow: hidden;
+  color: #6a0dad; }
+
+.gameBox__check-input {
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 700;
+  color: #6a0dad;
+  width: 10rem;
+  height: 4rem;
+  padding-left: 10px;
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  outline: none; }
+
+.gameBox__btn {
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #6a0dad;
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+  padding: 7px 6px 7px 6px;
+  border-radius: 0.9rem;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  display: block;
+  outline: none;
+  overflow: hidden; }
+
+.gameBox__btn:active {
+  transform: translateY(3px); }
+
+@media (max-width: 599px) {
+  .gameBox {
+    width: 37rem;
+    height: 36rem; }
+    .gameBox__result {
+      font-size: 1.6rem;
+      width: 35rem;
+      height: 4rem; }
+    .gameBox__check-input {
+      font-size: 1.6rem;
+      width: 10rem;
+      height: 3rem;
+      margin-top: 4%; }
+    .gameBox__btn {
+      font-size: 1.6rem;
+      width: 10rem;
+      height: 2rem;
+      margin-top: 3%; } }
+
+@media (min-width: 600px) {
+  .gameBox {
+    width: 39rem;
+    height: 41rem; }
+    .gameBox__result {
+      font-size: 1.7rem;
+      width: 33rem;
+      height: 4.6rem;
+      padding: 0.5rem; }
+    .gameBox__score {
+      font-size: 1.7rem; } }
+
+@media (min-width: 900px) {
+  .gameBox {
+    width: 50rem;
+    height: 45rem; }
+    .gameBox__title {
+      font-size: 3rem; }
+    .gameBox__result {
+      font-size: 1.8rem;
+      width: 40rem;
+      height: 4.5rem; }
+    .gameBox__score {
+      font-size: 2rem; }
+    .gameBox__check-input {
+      font-size: 1.8rem;
+      width: 12rem;
+      height: 4rem;
+      margin-top: 4%; }
+    .gameBox__btn {
+      font-size: 1.8rem;
+      width: 12rem;
+      height: 3rem;
+      margin-top: 4%; } }
+
+@media (min-width: 1200px) {
+  .gameBox {
+    width: 55rem;
+    height: 47rem; }
+    .gameBox__title {
+      font-size: 3.5rem; }
+    .gameBox__result {
+      font-size: 1.9rem;
+      width: 45rem;
+      height: 4.5rem; }
+    .gameBox__score {
+      font-size: 2.3rem; }
+    .gameBox__check-input {
+      font-size: 1.9rem;
+      width: 14rem;
+      height: 4.5rem;
+      margin-top: 4.5%; }
+    .gameBox__btn {
+      font-size: 1.9rem;
+      width: 14rem;
+      height: 3.5rem;
+      margin-top: 4%; } }
+
+@media (min-width: 1800px) {
+  .gameBox {
+    width: 60rem;
+    height: 55rem; }
+    .gameBox__title {
+      font-size: 4rem; }
+    .gameBox__result {
+      font-size: 2rem;
+      width: 50rem;
+      height: 4.5rem; }
+    .gameBox__score {
+      font-size: 2.3rem; }
+    .gameBox__check-input {
+      font-size: 1.9rem;
+      width: 20rem;
+      height: 5rem;
+      margin-top: 4.5%; }
+    .gameBox__btn {
+      font-size: 1.9rem;
+      width: 20rem;
+      height: 4rem;
+      margin-top: 4%; } }

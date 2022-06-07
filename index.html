@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Adivinhe o meu número</title>
+  </head>
+  <body>
+    <div class="gameBox">
+      <h1 class="gameBox__title">Adivinhe o meu número</h1>
+      <p class="gameBox__score">Melhor pontuação: 0</p>
+      <p class="gameBox__score">Score: 20</p>
+      <div class="gameBox__result">a</div>
+      <div class="gameBox__check">
+        <input
+          type="number"
+          max="20"
+          min="1"
+          required
+          id="check"
+          class="gameBox__check-input"
+          placeholder="Número"
+        />
+      </div>
+      <button class="gameBox__btn" onclick="verificandoResultado()">
+        Checar
+      </button>
+      <button class="gameBox__btn" onclick="reiniciaoJogo()">Restart</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
